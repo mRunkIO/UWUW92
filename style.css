@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.question-section {
+    margin-bottom: 20px;
+}
+
+.question-section h2 {
+    margin-bottom: 10px;
+}
+
+#question-input {
+    width: 100%;
+    resize: vertical;
+}
+
+#marks-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#submit-button {
+    display: block;
+    margin: 10px auto;
+}
+
+.answer-section {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.answer-section h2 {
+    margin-bottom: 10px;
+}
