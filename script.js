@@ -7,15 +7,16 @@ form.addEventListener('submit', function(e) {
   const question = document.getElementById('question').value;
   const schoolMarks = document.getElementById('school-marks').value;
 
-  // Make an API request to the backend using the appropriate URL
-  fetch('/api/ask', {  // Replace '/api/ask' with the endpoint URL of your backend
+  // Make an API request to the backend
+  fetch('/ask', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
       question: question,
-      school_marks: schoolMarks
+      school_marks: schoolMarks,
+      api_key: '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'
     })
   })
   .then(response => response.json())
